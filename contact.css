@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: habibi;
+    src: url(./fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+   font-family: font-1;
+   src: url(./fonts/NoticiaText-Regular.ttf);
+}
+
+body {
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+a {
+   text-decoration: none;
+   color: #000;
+}
+
+/* section-1 */
+.map iframe {
+  width: 89%;
+  margin: 0 5vw;
+  border-radius: 15px;
+}
+
+/* section-2 */
+.location {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location .contact-1{
+    width: 30%;
+}
+
+.location .contact-1 {
+    margin: 3vw;
+}
+
+.contact-1 h1,
+.contact-1 p {
+    margin: 2vw 0;
+}
+
+.contact-1 h1 i {
+    transition: 0.8s;
+}
+
+.contact-1 h1 i:hover {
+    transform: scale(0.8);
+}
+
+.contact-2 {
+    margin: 2vw 3vw;
+    width: 50%;
+}
+
+.contact-2 .login{
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+}
+
+.login input {
+    margin: 0.5vw 0;
+    padding: 1vw;
+    background-color: transparent;
+}
+
+@media screen and (max-width:768px) {
+    .location .contact-1{
+        width: 90%;
+    }
+    .contact-2 {
+        width: 90%;
+    }
+}

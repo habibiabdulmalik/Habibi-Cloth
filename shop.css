@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: habibi;
+    src: url(./fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+   font-family: font-1;
+   src: url(./fonts/NoticiaText-Regular.ttf);
+}
+
+body {
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+a {
+   text-decoration: none;
+   color: #000;
+}
+
+/* section-1 */
+
+.head-1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 3vw auto;
+}
+
+.head-1 h1 {
+    font-family: font-1;
+    margin: 0.7vw 0;
+}
+
+.head-1 .line {
+    width: 250px;
+   height: 5px;
+   margin-bottom: 2vw;
+   background-image: linear-gradient(to left,#eb6e83, #ecdbde,#eb6e83);
+}
